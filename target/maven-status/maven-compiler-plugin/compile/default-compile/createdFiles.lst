@@ -1,0 +1,13 @@
+com\FreeCrm\qa\pages\Registrationpage.class
+com\FreeCrm\qa\ExtentReportListener\ExtentReporterNG.class
+com\FreeCrm\qa\Util\TestUtil.class
+com\FreeCrm\qa\pages\LoginPage.class
+com\FreeCrm\qa\Base\TestBase.class
+com\FreeCrm\qa\pages\ContactPage.class
+com\FreeCrm\qa\pages\HomePage.class
+com\FreeCrm\qa\pages\DealPage.class
+com\FreeCrm\qa\pages\TaskPage.class
+com\FreeCrm\qa\pages\PaymentPage.class
+com\FreeCrm\qa\pages\AddToCartpage.class
+com\FreeCrm\qa\Util\WebEventListener.class
+com\FreeCrm\qa\pages\SearchPage.class

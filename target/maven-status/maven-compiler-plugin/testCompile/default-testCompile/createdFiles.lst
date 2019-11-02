@@ -1,0 +1,3 @@
+com\FreeCrm\qa\TestCases\HomePageTest.class
+com\FreeCrm\qa\TestCases\ContactPageTest.class
+com\FreeCrm\qa\TestCases\LoginPageTest.class

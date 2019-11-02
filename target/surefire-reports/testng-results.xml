@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="52733" started-at="2019-04-07T02:17:27Z" finished-at="2019-04-07T02:18:20Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="52733" started-at="2019-04-07T02:17:27Z" finished-at="2019-04-07T02:18:20Z">
+      <class name="com.FreeCrm.qa.TestCases.LoginPageTest">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.FreeCrm.qa.TestCases.LoginPageTest@7225790e]" name="Setup" is-config="true" duration-ms="8445" started-at="2019-04-07T02:18:09Z" finished-at="2019-04-07T02:18:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="LoginPageTitletest()[pri:1, instance:com.FreeCrm.qa.TestCases.LoginPageTest@7225790e]" name="LoginPageTitletest" duration-ms="21" started-at="2019-04-07T02:18:18Z" finished-at="2019-04-07T02:18:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageTitletest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.FreeCrm.qa.TestCases.LoginPageTest@7225790e]" name="TearDown" is-config="true" duration-ms="2123" started-at="2019-04-07T02:18:18Z" finished-at="2019-04-07T02:18:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.FreeCrm.qa.TestCases.LoginPageTest -->
+      <class name="com.FreeCrm.qa.TestCases.ContactPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.FreeCrm.qa.TestCases.ContactPageTest@3cbbc1e0]" name="setUp" is-config="true" duration-ms="26047" started-at="2019-04-07T02:17:27Z" finished-at="2019-04-07T02:17:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="VerifyContactpagelabel()[pri:1, instance:com.FreeCrm.qa.TestCases.ContactPageTest@3cbbc1e0]" name="VerifyContactpagelabel" duration-ms="84" started-at="2019-04-07T02:17:53Z" finished-at="2019-04-07T02:17:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyContactpagelabel -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.FreeCrm.qa.TestCases.ContactPageTest@3cbbc1e0]" name="teardown" is-config="true" duration-ms="157" started-at="2019-04-07T02:17:53Z" finished-at="2019-04-07T02:17:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.FreeCrm.qa.TestCases.ContactPageTest -->
+      <class name="com.FreeCrm.qa.TestCases.HomePageTest">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.FreeCrm.qa.TestCases.HomePageTest@35fb3008]" name="Setup" is-config="true" duration-ms="13654" started-at="2019-04-07T02:17:53Z" finished-at="2019-04-07T02:18:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="homepagetitletest()[pri:1, instance:com.FreeCrm.qa.TestCases.HomePageTest@35fb3008]" name="homepagetitletest" duration-ms="30" started-at="2019-04-07T02:18:07Z" finished-at="2019-04-07T02:18:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepagetitletest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.FreeCrm.qa.TestCases.HomePageTest@35fb3008]" name="teardown" is-config="true" duration-ms="2130" started-at="2019-04-07T02:18:07Z" finished-at="2019-04-07T02:18:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.FreeCrm.qa.TestCases.HomePageTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

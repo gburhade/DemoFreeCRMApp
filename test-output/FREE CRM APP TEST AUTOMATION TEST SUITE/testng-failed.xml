@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FREE CRM APP TEST AUTOMATION TEST SUITE]">
+  <listeners>
+    <listener class-name="com.FreeCrm.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="FREE CRM APP SANITY Test(failed)">
+    <classes>
+      <class name="com.FreeCrm.qa.TestCases.HomePageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="clickonContactpagelinktest"/>
+          <include name="VerifyUserNameLabelTest"/>
+          <include name="homepagetitletest"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.FreeCrm.qa.TestCases.HomePageTest -->
+      <class name="com.FreeCrm.qa.TestCases.ContactPageTest">
+        <methods>
+          <include name="SelectMultiplecheckboxesByname"/>
+          <include name="FillNewContactDetails"/>
+          <include name="teardown"/>
+          <include name="setUp"/>
+          <include name="VerifyContactpagelabel"/>
+          <include name="SelectSingleCheckboxforNameTest"/>
+        </methods>
+      </class> <!-- com.FreeCrm.qa.TestCases.ContactPageTest -->
+      <class name="com.FreeCrm.qa.TestCases.LoginPageTest">
+        <methods>
+          <include name="Logintest"/>
+          <include name="Setup"/>
+          <include name="ValidateCRMLogo"/>
+          <include name="TearDown"/>
+          <include name="LoginPageTitletest"/>
+        </methods>
+      </class> <!-- com.FreeCrm.qa.TestCases.LoginPageTest -->
+    </classes>
+  </test> <!-- FREE CRM APP SANITY Test(failed) -->
+</suite> <!-- Failed suite [FREE CRM APP TEST AUTOMATION TEST SUITE] -->
